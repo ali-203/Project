@@ -6,7 +6,7 @@ body{
     background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 0% 38%;
+    background-position: 0% 45%;
 
 }
 
@@ -14,6 +14,7 @@ body{
     background-color: #F8F8F8;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
    
 
 }
@@ -34,7 +35,7 @@ outline:none;
     font-weight: 800;
     background-color: #090E23;
     border-radius: 20px;
-    margin-top: 27px;
+    margin-top: 20px;
     width: 11%;
     height: 45px;
     cursor: pointer;
@@ -75,13 +76,19 @@ outline:none;
     border-radius: 22px;
 }
 
-.service {
+.service  {
+    outline: none;
     color: white;
-    background-color: transparent;
+     background-color: transparent; 
     border: 1px solid white;
     font-size: 15px;
     font-weight: 600;
     width: 113px;
     height: 43px;
     border-radius: 20px;
+}
+
+.service:hover{
+    background-color: white;
+    color: black;
 }
