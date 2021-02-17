@@ -9,14 +9,11 @@ body{
     background-position: 0% 45%;
 
 }
-
 .navbar-div {
     background-color: #F8F8F8;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-   
-
 }
 .navbar-div p {
     font-family: "Helvetica", Sans-serif;
