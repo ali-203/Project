@@ -6,14 +6,13 @@ body{
     background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 0% 31%
+    background-position: 0% 38%;
 
 }
 
 
 
 .navbar-div {
-position: sticky;
     background-color: #F8F8F8;
     display: flex;
     justify-content: space-around;
@@ -40,4 +39,28 @@ position: sticky;
     width: 11%;
     height: 45px;
     cursor: pointer;
+}
+ .head-para-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 370px;
+} 
+
+.head-para-button h1{
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+.head-para-button p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.emty_div {
+   background-color: #090E23;
+    margin-top: 6px;
+    margin-bottom: 9px;
+    width: 70px;
+    height: 4px;
 }
