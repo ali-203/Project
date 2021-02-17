@@ -13,12 +13,15 @@ body{
 
 
 .navbar-div {
-background-color: #F8F8F8;
-display: flex;
-justify-content: space-around;
+position: sticky;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+   
 
 }
 .navbar-div p {
+    
     margin-top: 40px;
     cursor: pointer;
 }
