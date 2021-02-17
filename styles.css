@@ -10,8 +10,6 @@ body{
 
 }
 
-
-
 .navbar-div {
     background-color: #F8F8F8;
     display: flex;
@@ -29,7 +27,8 @@ body{
 
 
 .navbar-div button {
-    border-style: none;
+    border: none;
+outline:none;
     color: white;
     font-size: 15px;
     font-weight: 800;
@@ -41,6 +40,7 @@ body{
     cursor: pointer;
 }
  .head-para-button{
+     padding-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,4 +63,25 @@ body{
     margin-bottom: 9px;
     width: 70px;
     height: 4px;
+}
+
+.contact {
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 48px;
+    border-radius: 22px;
+}
+
+.service {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 113px;
+    height: 43px;
+    border-radius: 20px;
 }
