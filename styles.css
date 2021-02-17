@@ -6,7 +6,8 @@ body{
     background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 0% 52%;
+    background-position: 0% 70%;
+    
 
 }
 .navbar-div {
@@ -119,6 +120,6 @@ font-family: sans-serif;
     margin-top: 20px;
     width: 70%;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
 }
