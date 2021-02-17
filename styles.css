@@ -38,7 +38,7 @@ outline:none;
     cursor: pointer;
 }
  .head-para-button{
-     padding-bottom: 30px;
+     padding-bottom: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -88,4 +88,15 @@ outline:none;
 .service:hover{
     background-color: white;
     color: black;
+}
+.main_two {
+
+background-color: #090e23;
+padding-bottom: 100px;
+}
+.awesome_para{    
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
