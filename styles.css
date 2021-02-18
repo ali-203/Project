@@ -2,14 +2,19 @@
 margin: 0%;
     padding: 0%;
 }
-body{
+/* body{
     background-image: url("images/back.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 0% 70%;
-    
-
+} */
+.back_img{
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0% 43%;
 }
+
 .navbar-div {
     background-color: #F8F8F8;
     display: flex;
@@ -124,6 +129,44 @@ font-family: sans-serif;
     font-size: 18px;
 }
 
-.first_div {
+
+
+
+
+
+ .two-div {
+    margin-right: 28px;
+    margin-left: 40px;
+    margin-top: 56px;
+    background-color: #090e23;
     display: flex;
+}
+ .first_div{ 
+    
+    box-shadow: 4px 4px 4px 4px;
+    border-radius: 6px;
+padding-bottom: 35px;
+    margin-right: 24px;
+    background-color: #090e23;
+    display: flex;
+    padding-top: 20px;    
+ } 
+  .second_div { 
+      box-shadow: 4px 4px 4px 4px;
+    border-radius: 6px;
+    background-color: #090e23;
+    
+    display: flex;
+    padding-top: 20px;
+
+    
+ }   
+ hr{
+        width: 30px;
+    margin-left: 34px;
+}
+.brand_we{
+font-family: sans-serif;
+    color: white;
+    font-weight: 500;
 }
