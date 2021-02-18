@@ -196,6 +196,8 @@ margin-right: 90px;
     font-size: 20px
     } 
 .two{
+    height: 3px;
+    background-color: white;
     margin-top: 35px;
     margin-bottom: 35px;
     margin-left: 48%;
@@ -224,8 +226,29 @@ margin-right: 90px;
     border-radius: 25px;
     
 }
-
 .number:hover{
 background-color: white;
 color: black;
+}
+
+.taklking_div {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.taklking_div h1{
+font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-size: 56px;
+}
+.taklking_div p{
+font-family: sans-serif;
+margin-top: 20px;
+color: white;
+margin-left: 100px;
+font-weight: 500;
+font-size: 20px
 }
