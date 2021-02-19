@@ -253,6 +253,8 @@ font-family: sans-serif;
     font-size: 14px
 }
 .firstname {
+    border: none;
+    outline: none;
     height: 55px;
     margin-top: 8px;
     margin-left: 36%;
@@ -262,6 +264,8 @@ font-family: sans-serif;
 }
 
 .secondname{
+    border: none;
+    outline: none;
 padding-bottom: 34px;
 padding-left: 21px;
 border-radius: 36px 36px 36px 36px;
@@ -269,4 +273,16 @@ width: 31%;
 margin-left: 36%;
 height: 38px;
 margin-top: 10px;
+}
+
+
+.ask-button {
+    color: white;
+    background-color: #172853;
+    /* color: #FFFFFF; */
+    width: 33%;
+    margin-left: 36%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 22px 22px 22px 22px;
 }
