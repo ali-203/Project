@@ -32,15 +32,16 @@ margin: 0%;
 
 .navbar-div button {
     border: none;
-outline:none;
+    outline: none;
     color: white;
     font-size: 15px;
     font-weight: 800;
     background-color: #090E23;
     border-radius: 20px;
     margin-top: 20px;
-    width: 11%;
-    height: 45px;
+    width: 146px;
+    margin-right: 34px;
+    height: 50px;
     cursor: pointer;
 }
  .head-para-button{
@@ -52,7 +53,7 @@ outline:none;
 } 
 
 .head-para-button h1{
-    font-size: 70px;
+    font-size: 65px;
     color: white;
     font-family: sans-serif;
 }
@@ -274,7 +275,10 @@ margin-left: 36%;
 height: 38px;
 margin-top: 10px;
 }
-
+form{
+margin-top: 12px;
+margin-right: 23px
+}
 
 .ask-button {
     font-size: 16px;
