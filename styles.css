@@ -297,3 +297,15 @@ margin-right: 23px
 background-color:#FFFFFF;
 color: #172853;
 }
+.foot {
+    font-family: sans-serif;
+text-align: center;
+    color: white;
+    margin-top: 3%
+}
+ 
+.icons{
+text-align: center;
+margin-top: 50px;
+color: white;
+}
