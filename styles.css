@@ -165,7 +165,7 @@ font-family: sans-serif;
 }
 
  .two-div {
-    margin-right: 28px;
+    /* margin-right: 28px; */
     margin-left: 40px;
     margin-top: 56px;
     background-color: #090e23;
