@@ -78,6 +78,10 @@ margin: 0%;
     height: 50px;
     cursor: pointer;
 }
+.navbar-div button:hover{
+    background-color: white;
+    color: black;
+}
  .head-para-button{
      padding-bottom: 50px;
     display: flex;
@@ -87,12 +91,12 @@ margin: 0%;
 } 
 
 .head-para-button h1{
-    font-size: 65px;
+    font-size: 55px;
     color: white;
     font-family: sans-serif;
 }
 .head-para-button p{
-    width: 38%;
+    width: 65%;
     color: white;
     font-family: sans-serif;
     font-weight: 600;
@@ -222,13 +226,13 @@ color: white;
     font-family: sans-serif;
 }
  .logo_design p{
-margin-right: 90px;
+    /* margin-right: 20px; */
     font-family: sans-serif;
     margin-top: 20px;
     color: white;
-    margin-left: 100px;
+    /* margin-left: 20px; */
     font-weight: 500;
-    font-size: 20px
+    font-size: 16px;
     } 
 .two{
     height: 3px;
@@ -292,7 +296,7 @@ font-family: sans-serif;
     outline: none;
     height: 55px;
     margin-top: 8px;
-    margin-left: 36%;
+    /* margin-left: 36%; */
     width: 30%;
     border-radius: 26px 26px 26px 26px;
     padding-left: 20px;
@@ -305,13 +309,16 @@ padding-bottom: 34px;
 padding-left: 21px;
 border-radius: 36px 36px 36px 36px;
 width: 31%;
-margin-left: 36%;
+/* margin-left: 36%; */
 height: 38px;
 margin-top: 10px;
 }
 form{
-margin-top: 12px;
-margin-right: 23px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/* margin-top: 12px;
+margin-right: 23px */
 }
 
 .ask-button {
@@ -322,7 +329,7 @@ margin-right: 23px
     color: white;
     background-color: #172853;
     width: 33%;
-    margin-left: 36%;
+    /* margin-left: 36%; */
     height: 50px;
     margin-top: 10px;
     border-radius: 22px 22px 22px 22px;
